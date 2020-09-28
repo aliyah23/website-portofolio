@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Allyah</title>
+    <style>
+      body {
+        margin: 0px;
+        background: black;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding-bottom: 100px;
+        background: #696969;
+        font-family: sans-serif;
+        font-size: 15px;
+      }
+
+      .m-10 {
+        margin: 10px 0;
+      }
+
+      .img-box img {
+        max-width: 350px;
+        max-height: 500px;
+        display: block;
+        margin: 0 auto;
+      }
+      .img-box-sm img {
+        max-width: 80px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .red {
+        color: indigo;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .shadow {
+        box-shadow: 0 0 15px -10px;
+      }
+
+      .nav {
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+      }
+
+      .nav > div {
+        color: indigo;
+        font-weight: 800;
+        margin: 0 5px;
+      }
+
+      .nav .menu-right {
+        color: #fff;
+        margin: 0 5px;
+        display: flex;
+      }
+
+      .nav .menu-right a {
+        margin: 0 20px;
+      }
+
+      main {
+        margin: 0 15px;
+      }
+
+      .content {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 0;
+      }
+      .box-wrap {
+        width: 50%;
+        min-width: 250px;
+      }
+
+      .content.box-3 .box-wrap{
+        max-width: 250px;
+        margin: 0 auto;
+        padding: 15px;
+        border: solid #000 1px;
+        text-align: center;
+        box-shadow: 0 0 15px 1px whitesmoke;
+      }
+
+      .content.box-3 .box-wrap:hover {
+        cursor: pointer;
+        background: #c0c0c0;
+      }
+
+      .content.box-3 .box-wrap:active {
+        transform: translateY(5px);
+      }
+
+      .btn {
+        border: none;
+        color: #fff;
+        background: black;
+        padding: 10px 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 15px -5px #000;
+      }
+      .btn:hover {
+        cursor: pointer;
+        background: #808080;
+      }
+      .btn:active {
+        transform: translateY(5px);
+        background: #000;
+      }
+    
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div>Portofolio</div>
+        <div class="menu-right">
+          <a href="https://youtube.com" target="_blank">Home</a>
+          <a href="https://yahoo.com" target="_blank">About</a>
+          <a href="https://google.com" target="_blank">Contact</a>
+          <a href="https://gmail.com" target="_blank">Blog</a>
+        </div>
+      </nav>
+
+      <main>
+        <div class="content">
+          <div class="box-wrap text-center">
+            <h3>Hello! I am ...</h3>
+            <h1>Aliyah Nurul Aini</h1>
+            <div>
+              Ini adalah portofolio pertama yang saya buat. Selamat membaca ^_^
+            </div>
+            <div class="m-10">
+              <button onclick="showAlert()" class="btn">Contact Me</button>
+            </div>
+          </div>
+          <div class="box-wrap">
+            <div class="img-box">
+              <img
+                src="FVDM2613.JPG"
+                />
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="box-wrap">
+            <div class="img-box">
+              <img
+                src="IMG_4633.JPG"
+              />
+            </div>
+          </div>
+          <div class="box-wrap">
+            <h3>Tentang <span class="red">Saya</span></h3>
+            <div>
+              Saya adalah seorang fresh gradute Smk Telkom Sandhy Putra Purwokerto.
+              Saya adalah anak pertama dari 3 bersaudara.
+            </div>
+
+            <table>
+              <tr>
+                <td>Nama</td>
+                <td>: Aliyah Nurul Aini</td>
+              </tr>
+              <tr>
+                <td>Umur</td>
+                <td>: 18</td>
+              </tr>
+              <tr>
+                <td>Alamat</td>
+                <td>: Jl. Kolonel Sugiono Rt04/04, Cilacap Selatan</td>
+              </tr>
+              <tr>
+                <td>Nomor</td>
+                <td>: 0895423720801</td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>: aliyahaini52@gmail.com</td>
+              </tr>
+              <tr>
+                <td>Hoby</td>
+                <td>: Membaca</td>
+              </tr>
+            </table>
+            <div>
+              <button onclick="showAlert()"class="btn">Download CV</button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-center">Riwayat <span class="red">Pendidikan</span></h3>
+          <div class="content box-3">
+            <div class="box-wrap shadow">
+              <div class="img-box-sm">
+                <img
+                  src="https://i0.wp.com/adikiss.net/wp-content/uploads/2013/04/icon-siswa-SD.png?fit=435%2C657&ssl=1"
+                />
+              </div>
+              <div><h4>SD NEGERI CILACAP 05</h4></div>
+              <div>
+                Saya menempuh sekolah selama 6 tahun. Di sekolah saya belajar materi dasar saat mulai bersekolah.
+                Mulai dari sikap-sikap baik dalam belajar, pengenalan huruf dan angka, membunyikan huruf dengan benar, dan cara menghitung,
+                serta belajar menggambar. 
+              </div>
+            </div>
+            <div class="box-wrap shadow">
+              <div class="img-box-sm">
+                <img
+                  src="https://adikiss.net/wp-content/uploads/2013/04/icon-siswa-SMP-199x300.png"
+                  />
+              </div>
+              <div><h4>SMP NEGERI 1 CILACAP</h4></div>
+              <div>
+                Setelah belajar 6 tahun di sekolah dasar, saya lanjut di SMP Negeri1 Cilacap.
+                Di Smp saya mulai mengasah bakat dan minat saya agar dapat dilanjutkan pada jenjang pendidikan
+                berikutnya.  
+              </div>
+            </div>
+            <div class="box-wrap shadow">
+              <div class="img-box-sm">
+                <img
+                  src="https://adikiss.net/wp-content/uploads/2013/04/icon-siswa-SMA-199x300.png"
+                />
+              </div>
+              <div><h4>SMK TELKOM PURWOKERTO</h4></div>
+              <div>
+               Setelah 3 tahun di SMP, saya melanjutkan pendidikan Sekolah Menengah Kejuruan Telkom di Purwokerto.
+               Pertama kali nya saya bersekolah jauh dari rumah hehe.. karna SD dan SMP hanya berjarak kurang lebih 1km
+               dari rumah saya. Di Smk Telkom saya mulai belajar benyak yang menjurus di dunia Teknologi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+        function showAlert(){
+            alert("Berhasil KLik")
+        }
+    </script>
+
+  </body>
+</html>
